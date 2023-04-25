@@ -1,6 +1,5 @@
-
-from dndserver.protos.Defines import Define_Common as common
 from dndserver.protos.Common import SC2S_META_LOCATION_REQ, SS2C_META_LOCATION_RES
+
 
 def process_location(ctx, msg):
     # get the location from the message.
